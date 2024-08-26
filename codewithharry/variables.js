@@ -29,3 +29,14 @@ console.log(c);
 
 //const value cannot be change
 // we have to assing a value into the const meaning const a; is incorrect const a = 99; is correct
+// Variables declared inside a { } block cannot be accessed from outside the block: specially let varibale
+// Cannot be Redeclared
+// Variables defined with let can not be redeclared.
+// You can not accidentally redeclare a variable declared with let.
+// With let you can not do this:
+// let x = "John Doe";
+// let x = 0;
+// Variables defined with var can be redeclared.
+// With var you can do this:
+// var x = "John Doe";
+// var x = 0;
